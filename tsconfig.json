@@ -18,7 +18,8 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "checkJs": false,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "typeRoots": ["./node_modules/@types", "./types"],
   },
   "ts-node": {
     "swc": true
